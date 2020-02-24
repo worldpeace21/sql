@@ -1,3 +1,6 @@
+/* 
+이름 순으로 조회하되, 이름이 중복된다면 최신순으로 조회한다.
+*/
 SELECT ANIMAL_ID, NAME, DATETIME 
 FROM ANIMAL_INS 
 ORDER BY NAME, DATETIME DESC;
